@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body {
+    font-family: 'Lato', 'Courier New', serif;
+    min-width: 320px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-block {
+    height: 36px;
+    background-color: #373c3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 19px;
+}
+
+.menu-button {
+    height: 100%;
+    width: 41px;
+    background-color: #202529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    background-image: url(../img/header-fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4px;
+
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.main-link {
+    color: #a6d6e0;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-section-content {
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-bottom: 94px;
+}
+
+.pizza {
+    background-image: url(../img/Pizza_delivery_fon_copy_3.png);
+}
+
+.salads {
+    background-image: url(../img/UAUX_Salads_fon_copy_3.png);
+}
+
+.desserts {
+    background-image: url(../img/Desserts_fon_copy_3.png);
+}
+
+.arrow {
+    color: #fff;
+    width: 89px;
+    background-color: #acd8ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-block {
+    display: flex;
+    height: 75px;
+    margin-bottom: 2px;
+}
+
+.motto {
+    color: #3f4043;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 4px;
+}
+
+.motto-postscript {
+    color: #cbccce;
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+.text_of_menu {
+    padding-top: 12px;
+    padding-left: 19px;
+    padding-bottom: 11px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.tincidunt {
+    color: #acd8ad;
+    background-color: #3f4043;
+    margin-bottom: 11px;
+}
+
+.vestibulum {
+    color: #fff;
+    background-color: #acd8ad;
+    margin-bottom: 12px;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.title-section {
+    color: #3f4043;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 1px;
+}
+
+.pizza-icon {
+    background-image: url(../img/Layer_11.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.wine_icon {
+    background-image: url(../img/Layer_9.png);
+    width: 14px;
+    height: 25px;
+    background-size: cover;
+}
+
+.cap_icon {
+    background-image: url(../img/Layer_10.png);
+    width: 30px;
+    height: 21px;
+    background-size: cover;
+}
+
+.beer-icon {
+    background-image: url(../img/Layer_8.png);
+    width: 21px;
+    height: 21px;
+    background-size: cover;
+}
+
+.logo {
+    display: none;
+}
+
+.min-640-menu {
+    display: none;
+}
+
+.item_and_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.item-name {
+    color: #3f4043;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    color: #3f4043;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.description {
+    color: #3f4043;
+    font-size: 9px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 55px;
+    background-color: #acd8ad;
+    margin-top: 37px;
+    margin-bottom: 22px;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.burger {
+    font-size: 15px;
+}
+
+i.fas.fa-times.close {
+    display: none;
+}
+
+.category-title {
+    font-size: 20px;
+}
+
+.logo {
+    background-image: url(../img/navigation-logo.png);
+    width: 104px;
+    height: 83px;
+}
+
+
+.motto-flex-logo {
+    background-image: url(../img/Menu_logo_copy.png);
+    width: 109px;
+    height: 89px;
+    display: none;
+}
+
+.motto-flex {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-flex-block {
+    display: none;
+}
+
+
+
+
+
+
+
+

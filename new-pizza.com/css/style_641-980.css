@@ -1,0 +1,174 @@
+.header-block {
+    height: 74px;
+}
+
+.logo {
+    display: block;
+}
+
+.min-640-menu {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: none;
+}
+
+.menu-button {
+    display: none;
+}
+
+.header-block {
+    height: 97px;
+}
+
+.open-menu {
+    display: flex;
+    width: 485px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.open-menu a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+
+.menu-button    {
+    width: 82px;
+}
+
+.burger {
+    font-size: 26px;
+}
+
+.close {
+    font-size: 26px;
+}
+
+.nav-title {
+    font-size: 24px;
+    margin-left: 38px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 38px;
+    padding-bottom: 22px;
+}
+
+.main-link {
+    font-size: 24px;
+}
+
+.main-section-content {
+    padding-top: 30px;
+    padding-left: 38px;
+    padding-bottom: 197px;
+}
+
+.category-title {
+    font-size: 36px;
+}
+
+.product-block {
+    height: 150px;
+}
+
+.arrow {
+    width: 150px;
+    font-size: 30px;
+}
+
+.motto {
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 9px;
+}
+
+.motto-postscript {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.text_of_menu {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-size: 40px;
+}
+
+.title-section {
+    font-size: 30px;
+}
+
+.main-section {
+    margin-bottom: 5px;
+}
+
+.tincidunt {
+    margin-bottom: 38px;
+}
+
+.pizza-icon {
+    width: 49px;
+    height: 48px;
+}
+
+.menu-section {
+    margin-bottom: 36px;
+}
+
+.item_and_price {
+    margin-bottom: 16px;
+}
+
+.item-name {
+    font-size: 27px;
+}
+
+.price {
+    font-size: 27px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.wine_icon {
+    width: 27px;
+    height: 48px;
+}
+
+.cap_icon {
+    width: 61px;
+    height: 42px;
+}
+
+.vestibulum {
+    margin-bottom: 24px;
+}
+
+.beer-icon {
+    width: 43px;
+    height: 42px;
+}
+
+.footer-block {
+    height: 97px;
+    margin-top: 117px;
+    margin-bottom: 50px;
+}
+
+.footer-text {
+    font-size: 18px;
+    line-height: 31px;
+}

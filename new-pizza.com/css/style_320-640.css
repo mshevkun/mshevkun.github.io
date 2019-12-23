@@ -1,0 +1,19 @@
+.min-640-menu {
+    width: 60%;
+    background-color: #fafafa;
+    position: absolute;
+    right: 0;
+    top: 36px;
+}
+
+.open-menu a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    border: 1px solid rgba(220, 220, 220, 0.9);
+}

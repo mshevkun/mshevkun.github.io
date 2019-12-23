@@ -1,0 +1,123 @@
+
+.product-img {
+    display: block;
+}
+
+.pizza-flex {
+    margin-top: 25px;
+    margin-left: 63px;
+}
+
+.salads-flex {
+    margin-top: 27px;
+    margin-left: 74px;
+}
+
+.desserts-flex {
+    margin-top: 25px;
+    margin-left: 83px;
+}
+
+.arrow {
+    display: block;
+}
+
+.arrow-flex-1 {
+    margin-top: 27px;
+    margin-left: 29px;
+}
+
+.arrow-flex-2 {
+    margin-top: 26px;
+    margin-left: 29px;
+}
+
+.arrow-flex-3 {
+    margin-top: 25px;
+    margin-left: 29px;
+}
+
+.motto {
+    margin-top: 19px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+
+.motto-postscript {
+    margin-left: 3px;
+}
+
+.text_of_menu {
+    padding-top: 9px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+.menu-section {
+    margin-bottom: 15px;
+}
+
+.item-name {
+    letter-spacing: -0.2px;
+}
+
+.container {
+    width: 287px;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.item_and_price {
+    margin-bottom: 7px;
+}
+
+.description {
+    font-family: 'Lato', 'Courier New', serif;
+    font-size: 10px;
+    margin-bottom: 9px;
+    margin-left: 1px;
+    letter-spacing: -0.29px;
+}
+
+.upper-wine {
+    margin-bottom: 16px;
+}
+
+.wine_icon {
+    margin-right: 6px;
+}
+
+.first-block {
+    margin-bottom: 30px;
+}
+
+.cap-section {
+    margin-bottom: 18px;
+}
+
+.upper-beer {
+    margin-bottom: 18px;
+}
+
+.beer-icon {
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
+.footer-block {
+    margin-top: 48px;
+    display: block;
+    text-align: left;
+}
+
+.footer-text-first {
+    margin-left: 85px;
+    padding-top: 10px;
+}
+
+.footer-text-second {
+    margin-left: 40px;
+    padding-top: 3px;
+}
