@@ -1,0 +1,863 @@
+.headerLogo_img {
+    width: 149px;
+}
+
+.descMobLogo-img {
+    width: 102px;
+}
+
+.lang-desc {
+    font-size: 13px;
+}
+
+.log-in {
+    padding: 10px 30px;
+}
+
+.sign-button-reg-desc-first {
+    width: 202px;
+}
+
+.choose-content {
+    max-width: 520px;
+}
+
+.questions-content {
+    font-size: 14px;
+    max-width: 413px;
+    color: #131313 !important;
+    opacity: 0.7;
+}
+
+.news-content, .questions-content, .contact-content, .footer-content {
+    line-height: 22px !important;
+}
+
+.letBe-buttonReg {
+    width: 193px;
+    font-weight: bold;
+}
+
+.footerLogoImg {
+    width: 149px;
+}
+
+.news-content {
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.slider-button {
+    display: flex;
+    width: 207px;
+    padding: 0px !important;
+    height: 48px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.financity-copyright-left, .financity-copyright-right {
+    font-size: 13px;
+}
+
+
+.footer-content {
+    max-width: 305px;
+    color: #131313;
+    opacity: 0.7;
+}
+
+.footerMenuElem {
+    font-size: 13px;
+}
+
+.num-main-block {
+    max-width: 1240px !important;
+}
+
+.sign_text-block, .tradeEverywhereBlock-content {
+    font-size: 14px !important;
+}
+
+.makeAChoice-button {
+    width: 212px;
+}
+
+.contact-content {
+    max-width: 416px;
+    margin-bottom: 105px;
+}
+
+.input-field {
+    width: 387px !important;
+}
+
+.who-num {
+    font-size: 32px;
+}
+
+.withdrawal-title {
+    font-size: 52px !important;
+    font-weight: bold !important;
+}
+
+.instructions-first_content {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    max-width: 499px;
+}
+
+.depositBlock, .withdrawal_block {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depositFirst_block, .depositSecond_block {
+    width: 50% !important;
+    max-width: 100% !important;
+}
+
+.platform-img {
+    width: 100%;
+}
+
+.slider-button-block {
+    margin-bottom: 100px;
+}
+
+.platform-imgBlock {
+    width: 500px;
+}
+
+.depositFirst_block {
+    width: 100% !important;
+}
+
+.platform-mainBlock {
+    align-items: center;
+}
+
+.insrtuctions-dep_content {
+    max-width: 499px;
+}
+
+.instuctions-depTitle {
+    font-size: 52px !important;
+    font-weight: bold !important;
+}
+
+.insrtuctions-dep_content {
+    font-size: 14px !important;
+}
+
+.platform-choose-button {
+    width: 325px;
+    letter-spacing: 0.02em;
+}
+
+.news-first-block {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.easyMoney {
+    font-weight: 500;
+}
+
+.bestBroker-content {
+    max-width: 413px;
+}
+
+.news-firstContentBlock {
+    width: 50% !important;
+}
+
+.news-first-block {
+    padding-bottom: 146px !important;
+}
+
+.news-content {
+    margin-bottom: 20px;
+}
+
+.viewAllCases_button {
+    margin-bottom: 100px;
+}
+
+.news-firstContent {
+    max-width: 388px;
+    font-size: 15px !important;
+}
+
+a {
+    outline: none !important;
+}
+
+.withdrawal-content {
+    line-height: 22px;
+}
+
+.error-email {
+    color: #FF1D1D;
+    position: absolute;
+    z-index: 9999;
+    right: 9px;
+    top: 15px;
+}
+
+.engLang {
+    display: none;
+}
+
+.gdlr-core-accordion-item-title {
+    line-height: 32px !important;
+}
+
+.submit-form {
+    margin-top: 20px !important;
+}
+
+.wpcf7 input {
+    width: 100% !important;
+    position: relative;
+}
+
+.news-title2 {
+    line-height: 61px !important;
+}
+
+.documents h3 {
+    margin: 32px 0 !important;
+}
+
+.third_img {
+
+}
+
+.howToStart-title {
+    max-width: 630px;
+    line-height: 49px !important;
+}
+
+.footer-first-link {
+    margin-left: 0px !important;
+}
+
+.docs-links:hover {
+    color: #0EAC00;
+}
+
+.newsMainContent {
+    font-size: 15px !important;
+    opacity: 0.7;
+    margin-top: 20px;
+    max-width: 388px;
+    line-height: 26px;
+}
+
+.sign_text-block {
+    line-height: 22px;
+}
+
+.news-title {
+    font-size: 52px !important;
+    max-width: 415px;
+}
+
+.platform_choose-content {
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+
+.line:before {
+    top: -7px !important;
+}
+
+
+@media (max-width: 1440px) {
+    .platform-mainBlock, .main_first_block, .withdrawal_block {
+        padding-top: 145px !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .platform-choose-button {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .platform-imgBlock {
+        width: 400px;
+    }
+
+    .platform-choose-button {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .lang_reg-block {
+        width: 135px;
+    }
+
+    .platform-imgBlock {
+        width: 360px;
+    }
+
+    .news-firstContentBlock {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1069px) {
+    .gdlr-core-portfolio-thumbnail-wrap.news-image-block.cryptoImg {
+        width: 66% !important;
+    }
+}
+
+@media (max-width: 930px) {
+    .gdlr-core-portfolio-thumbnail-wrap.news-image-block.cryptoImg {
+        width: 66% !important;
+    }
+}
+
+@media (max-width: 960px) {
+    .platform-imgBlock {
+        width: 300px;
+    }
+}
+@media (max-width: 890px) {
+    .platform-imgBlock {
+        width: 250px;
+    }
+
+    .insrtuctions-dep_content, .instructions-first_content {
+        max-width: 400px;
+    }
+
+    .financity-body h2, #poststuff .gdlr-core-page-builder-body h2 {
+        font-size: 32px;
+        line-height: 1.2 !important;
+    }
+}
+
+@media (max-width: 819px) {
+    .footer-link_block {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/*@media (max-width: 800px) {*/
+/*    .logo-nav_block {*/
+/*        width: 540px;*/
+/*    }*/
+/*}*/
+
+
+@media (max-width: 768px) {
+    .sign-button-reg-desc-first {
+        margin: 0 auto;
+        width: 189px;
+    }
+
+    .sign-button-reg {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .gdlr-core-portfolio-thumbnail-wrap.news-image-block.cryptoImg {
+        width: auto !important;
+    }
+
+    .financity-copyright-wrapper {
+        padding-bottom: 166px;
+    }
+
+    .financity-body h2, #poststuff .gdlr-core-page-builder-body h2 {
+        font-size: 38px;
+    }
+
+    .financity-footer-wrapper {
+        padding-bottom: 25px;
+    }
+
+    .viewAllCases_button {
+        margin-bottom: 140px;
+    }
+
+    .newsMainContent {
+        line-height: 22px;
+    }
+
+    .news-title2 {
+        line-height: 49px !important;
+    }
+
+    .platform-choose-button {
+        width: 325px;
+    }
+
+    .platform-firstBlock-second-content {
+        max-width: 329px;
+        color: #131313;
+        opacity: 0.7;
+    }
+
+    .howToStart-title {
+        max-width: 419px;
+        line-height: 45px;
+    }
+
+    .insrtuctions-dep_content {
+        max-width: 688px;
+    }
+
+    .bestBroker-block {
+        width: 452px;
+    }
+
+    .bestBroker-title {
+        max-width: 308px;
+        margin: 0 auto;
+    }
+
+    .bestBroker-title {
+        font-size: 42px !important;
+    }
+
+    .bestBroker-content {
+        font-size: 16px !important;
+    }
+
+    .choose-title {
+        font-size: 38px !important;
+        min-width: 289px;
+    }
+
+
+    .choose-content {
+        line-height: 26px !important;
+    }
+
+    .tradeEverywhereBlock-title {
+        font-size: 38px !important;
+    }
+
+    .tradeEverywhereBlock-content {
+        font-size: 16px !important;
+        max-width: 329px;
+    }
+
+    .whoWeAre-title {
+        font-size: 38px !important;
+    }
+
+    .whoWeAre-content {
+        font-size: 16px;
+        max-width: 329px;
+    }
+
+    .whoweAre_link {
+        font-size: 16px;
+    }
+
+    .questions-content {
+        font-size: 16px;
+        max-width: 616px;
+    }
+
+    .news-content, .questions-content, .contact-content, .footer-content {
+        line-height: 25px !important;
+    }
+
+    .letBe-content {
+        font-size: 16px !important;
+    }
+
+    .news-content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .slider-button-block {
+        margin-bottom: 140px;
+    }
+
+    .contact-content {
+        font-size: 16px !important;
+    }
+
+    .wpcf7-validates-as-required {
+        width: 414px !important;
+    }
+
+    .gdlr-core-divider-item-normal {
+        width: 62% !important;
+    }
+
+    .financity-footer-firstElem {
+        width: 100% !important;
+    }
+
+    .financity-footer-secondElem, .financity-footer-thirdElem  {
+        width: 50% !important;
+    }
+
+    .sign-button-log {
+        width: 206px;
+        padding: 16px 75px !important;
+        font-size: 14px !important;
+    }
+
+    .sign-button-reg {
+        width: 261px;
+        padding: 16px 74px !important;
+        font-size: 14px !important;
+    }
+
+    .news-title {
+        font-size: 42px !important;
+        margin-bottom: 20px !important;
+        max-width: 329px;
+    }
+
+    .news-firstContent {
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+
+    .mobile-lang-link {
+        font-size: 18px !important;
+    }
+
+    .contact-content {
+        margin-bottom: 40px !important;
+    }
+
+    .footer-link_block {
+        display: flex;
+    }
+
+    .withdrawal_block {
+        padding-bottom: 70px !important;
+    }
+
+    .depositBlock {
+        padding-bottom: 70px !important;
+    }
+
+    .withdrawal-title, .instuctions-depTitle {
+        font-size: 42px !important;
+    }
+
+    .platform-firstBlock-second-content, .insrtuctions-dep_content {
+        font-size: 14px !important;
+    }
+
+    .widget_nav_menu ul li {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .input-field {
+        width: auto !important;
+    }
+}
+
+@media (min-width: 1218px) {
+    .financity-footer-firstElem {
+        width: 46% !important;
+    }
+
+    .financity-footer-secondElem, .financity-footer-thirdElem {
+        width: 27% !important;
+    }
+}
+
+@media (max-width: 685px) {
+    .platform-imgBlock {
+        width: 210px;
+    }
+}
+
+@media (max-width: 600px) {
+    .platform-firstBlock-second-content {
+        max-width: 250px;
+    }
+
+    .platform-imgBlock {
+        width: 190px
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+    .input-field {
+        width: 387px !important;
+    }
+}
+
+@media (max-width: 629px) {
+    .mobile-img {
+        margin-top: 122px;
+    }
+}
+
+@media (max-width: 615px) {
+    .tradeEverywhereBlock-content {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .gdlr-core-counter-item-number {
+        font-size: 28px !important;
+    }
+
+    .gdlr-core-counter-item-bottom-text.gdlr-core-skin-content {
+        font-size: 12px !important;
+    }
+
+}
+
+
+
+@media (max-width: 479px) {
+    .descMobLogo-img {
+        width: 122px;
+    }
+
+    .documents-main-block h3 {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+    }
+
+    .sign-button-log, .sign-button-reg {
+        width: auto !important;
+        padding: 14px 50px !important;
+        font-size: 14px !important;
+    }
+
+    .financity-copyright-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .sign-button-reg, .sign-button-log {
+        font-size: 14px !important;
+    }
+
+    .sign-button-log {
+        margin-top: 40px !important;
+    }
+
+    .mobile-lang-link {
+        font-size: 14px !important;
+    }
+
+    .viewAllCases_button {
+        margin-bottom: 70px;
+    }
+
+    .mob-menu-elem {
+        font-size: 18px !important;
+        padding: 10px 0 !important;
+    }
+
+    .platform_choose-content {
+        line-height: 24px !important;
+    }
+
+    .gdlr-core-accordion-item-title {
+        line-height: 19px !important;
+    }
+
+    .howToStart-title {
+        line-height: 45px;
+    }
+
+    .bestBroker-title {
+        max-width: 238px;
+    }
+
+    .bestBroker-content {
+        font-size: 14px !important;
+        max-width: 280px;
+        margin-bottom: 20px !important;
+    }
+
+    .choose-content {
+        font-size: 14px !important;
+    }
+
+    .newsMainContent {
+        line-height: 22px;
+    }
+
+    .wpcf7-validates-as-required {
+        width: 100% !important;
+    }
+
+    .sign_text-block {
+        max-width: 245px;
+    }
+
+    .platform-firstBlock-second-content {
+        max-width: 688px;
+    }
+
+    .withdrawal_block {
+        padding: 100px 20px 0px 20px !important;
+    }
+
+    .gdlr-core-counter-item-number {
+        font-size: 36px !important;
+    }
+
+    .gdlr-core-counter-item-bottom-text.gdlr-core-skin-content {
+        font-size: 16px !important;
+    }
+
+    span.howToStart-num {
+        font-size: 24px !important;
+    }
+
+    .howToStart-contentTitle {
+        font-size: 16px !important;
+    }
+
+    .tradeEverywhereBlock {
+        padding:70px 20px !important;
+    }
+
+    .whoWeAre-title {
+        line-height: 33px !important;
+    }
+
+    .whoWeAreBlock {
+        padding: 0px !important;
+    }
+
+    .whoWeAre-content {
+        font-size: 14px;
+    }
+
+    .slider-button-block {
+        margin-bottom: 70px;
+    }
+
+    .tradeEverywhereBlock-title {
+        font-size: 28px !important;
+    }
+
+    .tradeEverywhereBlock-content {
+        font-size: 14PX !important;
+    }
+
+    .mobile-img {
+        margin-top: 50px;
+    }
+
+    .who-num {
+        font-size: 30px !important;
+    }
+
+    .who-text-span {
+        font-size: 16px !important;
+    }
+
+    .who-text {
+        max-width: 205px;
+    }
+
+    .frequently-title {
+        padding-bottom: 0px !important;
+    }
+
+    .news-title2 {
+        line-height: 37px !important;
+        margin: 0px !important;
+        max-width: 329px;
+        font-size: 32px !important;
+    }
+
+    .questions-content {
+        font-size: 14px;
+    }
+
+    .news-content, .questions-content, .contact-content, .footer-content {
+        line-height: 24px !important;
+    }
+
+    .letBe {
+        line-height: 37px !important;
+        font-size: 32px !important;
+    }
+
+    .questions-title {
+        font-size: 28px !important;
+        line-height: 33px !important;
+        width: auto !important;
+    }
+
+    .letBe-content {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        padding-top: 10px !important;
+    }
+
+    .contactTitle {
+        font-size: 32px !important;
+    }
+
+    .bestBroker-title {
+        font-size: 32px !important;
+    }
+
+    .contact-content {
+        font-size: 14px !important;
+    }
+
+    .input-field {
+        width: 100% !important;
+    }
+
+    .financity-footer-secondElem, .financity-footer-thirdElem {
+        width: 100% !important;
+    }
+
+    .footerMenuElem {
+        font-size: 14px;
+    }
+
+    .financity-widget-title {
+        font-size: 16px !important;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
+
+    .contactTitle {
+        padding-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .platform-choose-button {
+        width: 281px;
+    }
+}

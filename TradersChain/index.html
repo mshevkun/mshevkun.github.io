@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="js/particles.js-master/demo/css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="main-container">
+            <div class="descMenu">
+                <a class="logo-link" href="#">
+                    <img src="img/logo.svg" alt="Logo" class="main-logo">
+                </a>
+                <nav class="nav header-nav">
+                    <a class="header-link lang scroll" key="about" href="#whoWeAre">About us</a>
+                    <a class="header-link lang" key="instructions" href="pages/instruction/">Instructions</a>
+                    <a class="header-link lang" key="platforms" href="pages/platforms/">Platforms</a>
+                    <a class="header-link lang" key="news" href="pages/news/">News</a>
+                    <a class="header-link lang scroll" key="contact" href="#contactUs">Contact us</a>
+                    <a class="header-link lang header-input-signIn" href="https://trader.secure.interactivetrade.com/Account/login?redirectUrl=">Sign in</a>
+                    <a class="header-link lang header-input-signUp" href="#">Sign up for free</a>
+                    <span id="ru" class="header-lang lang translate ruLang">RU</span>
+                    <span id="en" class="header-lang lang translate engLang">EN</span>
+                </nav>
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="header">
+                <div class="flex-mob-wrapper">
+                    <a class="logo-link" href="#">
+                        <img src="img/logo.svg" alt="Logo" class="main-logo">
+                    </a>
+                    <div class="burger-container">
+                        <div id="burger">
+                            <div class="bar topBar"></div>
+                            <div class="bar btmBar"></div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu nav">
+                    <li class="menu-item"><a class="lang scroll" key="about" href="#whoWeAre">About us</a></li>
+                    <li class="menu-item"><a class="lang" key="instructions" href="pages/instruction/">Instructions</a></li>
+                    <li class="menu-item"><a class="lang" key="platforms" href="pages/platforms/">Platforms</a></li>
+                    <li class="menu-item"><a class="lang" key="news" href="pages/news/">News</a></li>
+                    <li class="menu-item"><a class="lang scroll" key="contact" href="#contactUs">Contact Us</a></li>
+                    <li class="menu-item menu-item-pink"><a href="https://trader.secure.interactivetrade.com/Account/login?redirectUrl=">Sign in</a></li>
+                    <li class="menu-item menu-item-pink"><a href="#">Sign up for free</a></li>
+                    <li id="ru" class="menu-item translate lang ruLang header-mob-lang">RU</li>
+                    <li id="en" class="menu-item translate lang engLang header-mob-lang">EN</li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="mainSection">
+        <div class="main-container heightBlock">
+            <div class="plexus">
+                <input style="display: none;" id='num_' type="range"  step="1"  min="1" max="50" onchange="chg();"><br>
+                <label style="display: none;" for = 'num_'># of Points</label><br>
+                <div id = 'op_'></div>
+                <canvas id="canv"></canvas>
+                <h3 style="display: none;">Plexus</h3>
+            </div>
+            <h1 class="title_class main-title">
+                Trade everywhere<span class="dot">.</span>
+                <br>
+                Investing in your future
+            </h1>
+            <p class="text_class mainSignature">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">
+                <div class="getStartedButton">Get started<img class="arrow-icon" src="img/arrow.svg" alt="arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <section class="whyBestSection">
+        <div class="main-container">
+            <h2 class="title_class whyBestTitle">Why are we the <br> best in our field?</h2>
+            <p class="text_class whyBestText">Working with us, you get an individual approach and trading tools necessary for each
+                successful market player. Interactive Trade provides not only modern analytical and marketing solutions
+                but also a powerful trading platform MT4. We are here to open the world of global trade for you.</p>
+            <div class="counters_block">
+                <div class="counter_block counter_block_first">
+                    <div class="counter">
+                        <span class="number1 number-style" data-max="100">0</span>
+                        <span class="number-style">%</span>
+                        <p class="counter-text">Guaranteed<br>  data confidentiality</p>
+                    </div>
+                </div>
+                <div class="counter_block">
+                    <div class="counter">
+                        <span class="number2 number-style" data-max="6">0</span>
+                        <p class="counter-text">Financial trading<br> experience</p>
+                    </div>
+                </div>
+                <div class="counter_block">
+                    <div class="counter">
+                        <span class="number3 number-style" data-max="24">0</span></span>
+                        <span class="number-style">/7</span>
+                        <p class="counter-text">Support service</p>
+                    </div>
+                </div>
+                <div class="counter_block">
+                    <div class="counter">
+                        <span class="number4 number-style" data-max="125255">124864</span>
+                        <p class="counter-text">Opened an<br> account with us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="howToStartSection">
+        <div class="main-container">
+            <h2 class="title_class howToStart_title">How to start your<br> professional trading less than 5 minutes</h2>
+            <div class="howToStart_contentBlock">
+                <div class="howToStartImgBlock">
+                    <img class="howToStartImg" src="img/howToStart.png" alt="How to start image">
+                    <img class="howToStartImg2" src="img/howToStartImg2.png" alt="How to start image">
+                </div>
+                <div class="howToStart_content">
+                    <div class="howToStart_elem">
+                        <img src="img/rectangle.svg" alt="Logo icon">
+                        <h3 class="howToStart_elemTitle">Simple registration</h3>
+                        <p class="howToStart_elemText">You need only a few minutes to open an account.</p>
+                    </div>
+                    <div class="howToStart_elem">
+                        <img src="img/rectangle.svg" alt="Logo icon">
+                        <h3 class="howToStart_elemTitle">Account verification</h3>
+                        <p class="howToStart_elemText">You need only a few minutes to open an account.</p>
+                    </div>
+                    <div class="howToStart_elem">
+                        <img src="img/rectangle.svg" alt="Logo icon">
+                        <h3 class="howToStart_elemTitle">Fill in account</h3>
+                        <p class="howToStart_elemText"> You need only a few minutes to open an account.</p>
+                    </div>
+                    <div class="howToStart_elem">
+                        <img src="img/rectangle.svg" alt="Logo icon">
+                        <h3 class="howToStart_elemTitle">Start trading</h3>
+                        <p class="howToStart_elemText">You need only a few minutes to open an account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choosePlatformSection canvas_block">
+        <div id="particles-js2">
+            <div class="main-container">
+                <h2 class="title_class choosePlatform-title">
+                    Trade Everywhere<span class="dot">.</span>
+                    <br>
+                    Choose your platform
+                </h2>
+                <p class="text_class choosePlatform-signature">We provide only the best trading software..
+                    You can work anywhere.</p>
+                <a href="pages/platforms/">
+                    <div class="choosePlatformButton">Сhoose your platform</div>
+                </a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="whoSection" id="whoWeAre" style="position: relative">
+        <div class="main-container">
+            <div class="who_firstContent">
+                <h2 class="title_class whoTitle">Who <br>we are?</h2>
+                <p class="text_class who_text">Interactive Trade maintains a strong sense of social responsibility,
+                    which remains a vital part of our mission. We ensure that we instill the same philanthropic values
+                    in our employees and strive to nurture an organizational culture that supports crucial global and
+                    local initiatives aimed at creating positive change. We believe that there are more than
+                    just business, socially responsible flows into all of our business actions and decisions.</p>
+            </div>
+            <div class="some_block">
+                <div class="nice_div">
+                    <div class="who_list_1">
+                        <div class="who_listElem">
+                            <span class="who_listNum">1</span>
+                            <p class="who_listText">Instant withdrawal of funds from your account</p>
+                        </div>
+                        <div class="who_listElem">
+                            <span class="who_listNum">2</span>
+                            <p class="who_listText">Financial trading experience</p>
+                        </div>
+                        <div class="who_listElem">
+                            <span class="who_listNum">3</span>
+                            <p class="who_listText">Support service</p>
+                        </div>
+                    </div>
+                    <img class="who-img who-img-first square-block" src="img/whoFirstImg.png" alt="Who we are image">
+                </div>
+
+                <div class="nice_div2">
+                    <img class="who-img who-img-second square-block" src="img/whoSecondImg.png" alt="Who we are image">
+                    <div class="square-block">
+                        <div class="who_list who_listSecond">
+                            <div class="who_listElem">
+                                <span class="who_listNum who_listNum_four">4</span>
+                                <p class="who_listText">Instant withdrawal of funds from your account</p>
+                            </div>
+                            <div class="who_listElem">
+                                <span class="who_listNum">5</span>
+                                <p class="who_listText">Financial trading experience</p>
+                            </div>
+                            <div class="who_listElem">
+                                <span class="who_listNum">6</span>
+                                <p class="who_listText">Support service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="main-container">
+            <div class="questions_mainBlock">
+                <div>
+                    <h2 class="title_class">Frequently<br>  Asked Questions</h2>
+                </div>
+                <div class="gdlr-core-accordion-style-box-icon" style="padding-bottom: 35px;">
+
+                    <div class="gdlr-core-accordion-item-tab first_question clearfix  gdlr-core-active">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">What platforms will I be able to use?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gdlr-core-accordion-item-tab clearfix  ">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">How do I apply for an account?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gdlr-core-accordion-item-tab clearfix  ">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">Do I have to be experienced in trading to open an account?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gdlr-core-accordion-item-tab clearfix  ">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">What types of financial instruments can I trade in?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gdlr-core-accordion-item-tab clearfix  ">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">How can I deposit into an account and withdraw money from it?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gdlr-core-accordion-item-tab clearfix  ">
+                        <div class="gdlr-core-accordion-item-icon gdlr-core-js"></div>
+                        <div class="gdlr-core-accordion-item-content-wrapper">
+                            <h4 class="questions_title">What documents are needed for the account verification?</h4>
+                            <div class="gdlr-core-accordion-item-content">
+                                <p class="text_class question_text">We provide only the best trading software.
+                                    The trading terminal MetaTrader4 is the most popular and convenient platform for
+                                    access to global exchanges. You can work anywhere. All you need is the Internet
+                                    because the necessary trading tools are already collected in one place and
+                                    are available in a couple of clicks. Use only the best and develop with us!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="takeItEasySection canvas_block">
+        <div id="particles-js3">
+            <div class="main-container">
+                <h2 class="title_class takeItEasy-title">
+                    Take it easy<span class="dot">.</span>
+                    <br>
+                    Be a proffesional trader
+                </h2>
+                <a href="#">
+                    <div class="choosePlatformButton takeItEasyButton">Start your trading</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="actualNews">
+        <div class="main-container">
+            <h2 class="title_class newsTitle">
+                Actual news and
+                <br>
+                educational articles
+            </h2>
+            <div class="newsImgBlock">
+
+                <div class="holder img1news">
+                    <div class="block">
+                        <div class="block_content">
+                            <p class="block_title">Learn how to trade<br> correctly</p>
+                            <span class="clock"><img class="clock-img" src="img/clock.png" alt="clock"></span>
+                            <span class="newsData">June 6, 2020</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="holder img2news">
+                    <div class="block">
+                        <div class="block_content">
+                            <p class="block_title">Learn how to trade<br> correctly</p>
+                            <span class="clock"><img class="clock-img" src="img/clock.png" alt="clock"></span>
+                            <span class="newsData">June 6, 2020</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="holder img3news">
+                    <div class="block">
+                        <div class="block_content">
+                            <p class="block_title">Learn how to trade<br> correctly</p>
+                            <span class="clock"><img class="clock-img" src="img/clock.png" alt="clock"></span>
+                            <span class="newsData">June 6, 2020</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="holder img4news">
+                    <div class="block">
+                        <div class="block_content">
+                            <p class="block_title">Learn how to trade<br> correctly</p>
+                            <span class="clock"><img class="clock-img" src="img/clock.png" alt="clock"></span>
+                            <span class="newsData">June 6, 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="pages/news/">
+                <div class="choosePlatformButton takeItEasyButton">View all news</div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contactSection canvas_block" id="contactUs">
+        <div id="particles-js">
+            <div class="main-container">
+                <h2 class="title_class contactTitle">Contact us</h2>
+                <form class="signup-form" id="myForm" name="myForm" novalidate>
+                    <div class="flex-form">
+                        <div class="fullNameBlock">
+                            <input type="text" placeholder="Full name" name="lastname" value="" required="required" aria-required="true" pattern="^([- \w\d\u00c0-\u024f]+)$" title="Incorrect field" class="text-input formFullName">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+                        <div class="emailBlock">
+                            <input type="email" placeholder="E-mail" name="email" value="" required="required" aria-required="true" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" title="Incorrect field" class="text-input formEmail">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <div class="flexFormMessage">
+                        <div class="formMessageBlock">
+                            <input type="text" placeholder="Message.." name="firstname" value="" required="required" aria-required="true" title="Incorrect field" class="text-input formMessage">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <button class="btn btn--red contactSubmitButton" type="submit">Send it</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main-container">
+            <div class="flexFooterBlock">
+                <div class="footerNavMenu">
+                    <nav class="footer-nav nav">
+                        <a class="footer-link scroll lang" key="about" href="#whoWeAre">About us</a>
+                        <a class="footer-link lang" key="instructions" href="pages/instruction/">Instructions</a>
+                        <a class="footer-link lang" key="platforms" href="pages/platforms/">Platforms</a>
+                        <a class="footer-link lang" key="news" href="pages/news/">News</a>
+                        <a class="footer-link lang scroll" key="contact" href="#contactUs">Contact us</a>
+                        <a class="footer-link footer-input-sign" href="https://trader.secure.interactivetrade.com/Account/login?redirectUrl=">Sign in</a>
+                        <a class="footer-link footer-input-sign" href="#">Sign up for free</a>
+                        <span id="ru" class="header-lang lang translate ruLang">RU</span>
+                        <span id="en" class="header-lang lang translate engLang">EN</span>
+                    </nav>
+                </div>
+                <div class="footerContentBlock">
+                    <div class="contactsFooter">
+                        <div class="contactsFooterElem contactsFooterPhone">
+                            <h3 class="contactsFooterTitle">Phone</h3>
+                            <p class="contactsFooterText">+ 723 3921 9443</p>
+                            <a class="contactsFooterSignLink" href="#">
+                                <span class="contactsFooterSign">Call</span>
+                            </a>
+
+                        </div>
+                        <div class="contactsFooterElem contactsFooterEmail">
+                            <h3 class="contactsFooterTitle">Email</h3>
+                            <p class="contactsFooterText">info@gmail.com</p>
+                            <a class="contactsFooterSignLink" href="#">
+                                <span class="contactsFooterSign">Send it</span>
+                            </a>
+                        </div>
+                        <div class="contactsFooterElem location">
+                            <h3 class="contactsFooterTitle">Location</h3>
+                            <p class="contactsFooterText">4 apt. Flawing Street. The Grand Avenue.
+                                Liverpool, UK 33342</p>
+                            <a class="contactsFooterSignLink" href="#">
+                                <span class="contactsFooterSign googleMapsLink">Google maps</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footerTextBlock">
+                        <div class="information">
+                            <h3 class="informationTitle">Information and high risk warning:</h3>
+                            <p class="informationText">Trading with foreign exchange (FX), contract for
+                                differences (CFDs) and precious metals carries a high level of risk that may not be
+                                suitable for all investors. Leverage creates additional risk and loss exposure.
+                                Before you decide to trade foreign exchange or contract for differences, carefully
+                                consider your investment objectives, experience level, and risk tolerance.</p>
+                        </div>
+                        <div class="disclaimer">
+                            <h3 class="disclaimerTitle">Legal disclaimer:</h3>
+                            <p class="disclaimerText">Forex trading entails significant risks and is not appropriate for
+                                all investors. The possibility of incurring substantial losses should be
+                                taken into account. It is therefore important to understand the possible consequences
+                                of investing. Traders should weigh their earning potential against the risks involved
+                                and act accordingly. Interactive Trade Ltd operating under brand and using domenLink
+                                domain within the European Economic Area.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerTextBlock2">
+                <div class="information2">
+                    <h3 class="informationTitle">Information and high risk warning:</h3>
+                    <p class="informationText">Trading with foreign exchange (FX), contract for
+                        differences (CFDs) and precious metals carries a high level of risk that may not be
+                        suitable for all investors. Leverage creates additional risk and loss exposure.
+                        Before you decide to trade foreign exchange or contract for differences, carefully
+                        consider your investment objectives, experience level, and risk tolerance.</p>
+                </div>
+                <div class="disclaimer2">
+                    <h3 class="disclaimerTitle">Legal disclaimer:</h3>
+                    <p class="disclaimerText">Forex trading entails significant risks and is not appropriate for
+                        all investors. The possibility of incurring substantial losses should be
+                        taken into account. It is therefore important to understand the possible consequences
+                        of investing. Traders should weigh their earning potential against the risks involved
+                        and act accordingly. Interactive Trade Ltd operating under brand and using domenLink
+                        domain within the European Economic Area.</p>
+                </div>
+            </div>
+
+            <div class="copyRightBlock">
+                <div class="copyRight">
+                    <p>Copyright 2020, All Right Reserved</p>
+                </div>
+                <div class="risks">
+                    <ul class="risksLinks">
+                        <li class="riskLink riskLinkTerms">
+                            <a href="#">Terms and Conditions</a>
+                        </li>
+                        <li class="riskLink">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="riskLink">
+                            <a href="#">Risk Warnings</a>
+                        </li>
+                        <li class="riskLink">
+                            <a href="#">Anti-Money Laundering</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script type='text/javascript'>
+        var gdlr_core_pbf = {
+            "admin": "",
+            "video": {
+                "width": "640",
+                "height": "360"
+            },
+            "ilightbox_skin": "dark"
+        };
+    </script>
+    <script src="js/scrollCounter.js"></script>
+    <script src="js/page-builder.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/particles.js-master/particles.js"></script>
+    <script src="js/particles.js-master/demo/js/app.js"></script>
+</body>
+</html>
