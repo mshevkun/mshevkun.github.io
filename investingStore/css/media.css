@@ -1,0 +1,1812 @@
+@media screen and (max-width: 1440px) {
+    .trade-anywhere__contentBlocks {
+        flex-direction: column;
+    }
+
+    .second-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1364px) {
+    .investing__image {
+        margin: 0 0 0 auto;
+    }
+
+    .accordion-block {
+        flex-direction: column;
+    }
+
+    .investing__title, .switch-platform-block {
+        flex-direction: column;
+    }
+
+    .content-mainBlock {
+        padding-bottom: 67px;
+    }
+
+    .investing__title, .switch-platform-block {
+        padding-bottom: 0px;
+    }
+
+    .accordion {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .tabBlock-content {
+        max-width: 688px;
+    }
+
+    .counter_block {
+        margin-right: 5px;
+        width: 33%;
+        margin-bottom: 30px;
+    }
+
+    .counters_block {
+        justify-content: space-around;
+    }
+
+    .counters_block {
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .investing__title {
+        display: block;
+    }
+
+    .screen-tablet {
+        display: block;
+        width: 100%;
+    }
+
+    .investing__image {
+        display: none;
+    }
+
+    nav.footer__nav.nav.dt {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .footer-nav-block {
+        margin-top: 40px;
+    }
+
+    .accordion-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .tradeEverywhere__blockInformation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .solve_block {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .header-menu-navigation {
+        min-width: 500px;
+    }
+
+    .takeiteasy-block {
+        padding-bottom: 438px;
+    }
+
+    .counter {
+        width: 239px;
+        height: 239px;
+    }
+
+    .why_block {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .why_block_content {
+        margin: 0;
+    }
+
+    h2.section__title.why-title {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .anim1 {
+        top: 20px;
+        right: 5%;
+    }
+
+    .anim2 {
+        bottom: 20px;
+        left: 10%;
+    }
+
+    .anim3 {
+        top: 20px;
+        right: 10%;
+        width: 150px;
+    }
+
+    .anim4 {
+        top: auto;
+        bottom: 226px;
+        left: 0;
+        width: 120px;
+    }
+
+    .anim5 {
+        bottom: 67px;
+        right: 20%;
+        width: 120px;
+        left: auto;
+    }
+
+    .family-img-block {
+        max-width: 70%;
+        padding-bottom: 80px;
+    }
+
+    .family-blockInformation {
+        flex-direction: column;
+    }
+
+    .item__text {
+        max-width: inherit !important;
+    }
+
+    .list__item {
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .list__item:nth-child(3), .list__item:nth-child(7) {
+        flex-direction: row;
+    }
+
+    .how-to-start-content {
+        width: 58%;
+    }
+
+    .phone-img {
+        margin: 0 0 58px auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .descMenu {
+        display: none;
+    }
+
+    .main-logo-burger {
+        display: none;
+    }
+
+    .burger-menu-mobile {
+        display: none !important;
+    }
+
+    .window {
+        display: block;
+    }
+
+    .counters_block {
+        margin: auto;
+    }
+
+    .footer-text {
+        min-width: inherit;
+    }
+
+    .contact-title {
+        min-width: inherit;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .info__first, .info__second {
+        max-width: 688px;
+    }
+
+    .info__first {
+        margin-bottom: 40px;
+    }
+
+    .tabBlock {
+        margin-top: 30px;
+    }
+
+    .startTrading-blockSteps__list {
+        margin-left: 0px;
+    }
+
+    .startTrading-blockSteps__list {
+        width: 100%;
+    }
+
+    .comment-block {
+        flex-direction: column;
+    }
+
+    .tabBlock-tabs {
+        display: inline-block;
+        position: absolute;
+        bottom: -24px;
+        left: -6px;
+    }
+
+    .startTrading-blockSteps__list .list__item:nth-child(1), .startTrading-blockSteps__list .list__item:nth-child(2) {
+        margin-bottom: 0px !important;
+    }
+
+    .info__first, .info__second {
+        width: 100%;
+    }
+
+    .footer .item__title {
+        max-width: 100%;
+    }
+
+    .footer-text {
+        margin-top: 30px;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .counter_block_secondRow {
+        margin-top: 80px;
+    }
+
+    .trade-anywhere__title--firstRow {
+        font-size: 70px;
+        line-height: 49px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 76px;
+        line-height: 95px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .investing__flex-block {
+        flex-direction: column;
+    }
+
+    .trade-anywhere__contentBlocks {
+        margin-bottom: 120px;
+    }
+
+    .investing__blockText {
+        max-width: 80%;
+    }
+
+    .investing__sign {
+        margin-bottom: 85px;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .investing__title--text {
+        font-size: 52px;
+        line-height: 67px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    input {
+        width: 688px;
+    }
+
+    .switch-platform-block {
+        padding-top: 100px;
+    }
+
+    .contact-title-bottom {
+        display: none;
+    }
+
+    .footer .item__subtitle {
+        max-width: 95%;
+    }
+
+    .footer-text-content {
+        width: auto;
+    }
+
+    .cell {
+        height: 156px;
+    }
+
+    .content-mainBlock-mac {
+        padding-bottom: 67px !important;
+    }
+
+    .main__contacts {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cell:first-child {
+        margin-bottom: 0px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 61px;
+        line-height: 70px;
+    }
+
+    .startTrading, .about{
+        padding-top: 100px;
+    }
+
+    .trajectory img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .startTrading__blockInformation {
+        padding-bottom: 100px;
+    }
+
+    .content-mainBlock-tablet {
+        padding-bottom: 67px !important;
+    }
+
+    .desctop {
+        display: none;
+    }
+
+    .comment-section-title {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .issues-blocks {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .carousel-content-first {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .comment-block {
+        max-width: 574px;
+    }
+
+    .mob-owl .owl-nav {
+        top: inherit;
+        bottom: 0;
+    }
+
+    .content-mainBlock {
+        padding-bottom: 294px;
+    }
+
+    .carousel-content-second {
+        width: 65%;
+        margin-top: 100px;
+    }
+
+    .mob-item {
+        display: block;
+    }
+
+    .desc-owl {
+        display: none !important;
+    }
+
+    .mob-owl {
+        display: block !important;
+    }
+
+    .issue-block {
+        width: 80%;
+        margin: 40px auto 0 auto;
+    }
+
+    .solve_block {
+        display: block;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .accordion-block {
+        flex-direction: column;
+    }
+
+    nav.footer__nav.nav.dt {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .footer-nav-block {
+        margin-top: 40px;
+    }
+
+    .accordion-header {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1052px) {
+    .easy-trading {
+        display: none;
+    }
+
+    .help-title {
+        max-width: 680px;
+    }
+
+    .main-accordion-block {
+        margin-top: 100px;
+    }
+
+    .counter_block {
+        width: auto;
+    }
+
+    .boxSteps {
+        flex-direction: column;
+    }
+
+    .step {
+        margin-bottom: 70px;
+    }
+
+    .how-to-start-content {
+        width: 50%;
+    }
+
+    .counter_block_secondRow {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .accordion-toggle.active:after {
+        display: none;
+    }
+
+    .accordion-toggle {
+        margin: 0 20px 0 20px;
+    }
+
+    .accordion-num {
+        margin-right: 0px;
+    }
+
+    .accordion-content p {
+        padding-left: 20px;
+    }
+    .accordion-toggle {
+        line-height: 26px;
+    }
+
+    .accordion-toggle.active:before {
+        display: none;
+    }
+
+    .accordion-toggle:before {
+        display: none;
+    }
+
+    .main-title {
+        font-size: 73px;
+        line-height: 70px;
+    }
+
+    .investing__title--text {
+        font-size: 52px;
+        line-height: 67px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 61px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .tradeEverywhere__img {
+        margin: auto !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tradeEverywhere__img img {
+        width: 100%;
+    }
+
+    .tradeEverywhere__first-block {
+        margin-right: 0px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    tr td {
+        padding: 18px 20px 18px 20px !important;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .easy-title {
+        min-width: inherit;
+    }
+
+    .acc-main-title span {
+        display: none;
+    }
+
+    .trade-anywhere__mainTitle {
+        padding-bottom: 60px;
+    }
+
+    .accordion-content p {
+        padding-right: 20px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .issue-block {
+        width: 100%;
+    }
+
+    .light-container {
+        padding: 0 40px;
+    }
+
+    .logo-link {
+        padding-left: 40px;
+    }
+
+    .burger-container {
+        margin-right: 40px;
+    }
+
+    .footer {
+        padding-top: 100px;
+    }
+
+    .list__item {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .how-to-start-content {
+        padding-top: 34px;
+        width: 80%;
+    }
+
+    .list__item:nth-child(3), .list__item:nth-child(7) {
+        flex-direction: column;
+    }
+
+    .comment-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .trajectory {
+        display: none;
+    }
+
+    .carousel-content-first {
+        flex-direction: column;
+    }
+
+    .owl-carousel .owl-item img {
+        width: inherit;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .switch-platform-content-block {
+
+    }
+
+    .mob {
+        width: 600px;
+    }
+
+    .logo-mob {
+        display: block;
+    }
+
+    .logo-link {
+        padding-left: 40px;
+    }
+
+    .window .header ul.menu {
+        margin-left: 40px;
+    }
+
+    .header-mob-lang {
+        left: 40px;
+    }
+
+    .burger-container {
+        margin-right: 40px;
+    }
+
+    .investing__title--text {
+        font-size: 58px;
+        line-height: 56px;
+    }
+
+    .investing__title--firstRow {
+        margin-bottom: 17px;
+    }
+
+    .investing__blockText {
+        max-width: 100%;
+    }
+
+    .investing-blockText__text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .acc-title h4 {
+        line-height: 26px;
+    }
+
+    .investing__title--text {
+        font-size: 49px;
+        line-height: 50px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 56px;
+        line-height: 60px;
+    }
+
+    .startTrading-blockSteps__list {
+        margin-top: 0px;
+    }
+
+    .last-cell {
+        max-width: 290px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .mob {
+        width: 400px;
+    }
+
+    .main-title {
+        font-size: 57px;
+        line-height: 41px;
+    }
+
+    .trade-anywhere_main-title {
+        line-height: 60px;
+    }
+
+    .trade-anywhere__platforms {
+        flex-direction: column;
+    }
+
+    .trade-anywhere__platforms a {
+        padding-bottom: 30px;
+    }
+
+    .trade-anywhere__content, .trade-anywhere__contentBlock {
+        width: 100%;
+    }
+
+    .trade-anywhere__links {
+        width: auto;
+    }
+
+    .trade-anywhere__platforms {
+        width: auto;
+    }
+
+    .accordion-num {
+        display: none;
+    }
+
+    .accordion-content p {
+        padding-left: 20px;
+    }
+
+    .investing__title--text {
+        font-size: 43px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .window .header ul.menu {
+        margin-top: 90px;
+    }
+
+    .mob-menu-item {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .burger-content-block {
+        margin-top: 60px;
+    }
+
+    .counter_block_secondRow {
+        margin-top: 0px;
+    }
+
+    .investing__title {
+        padding-top: 90px;
+    }
+
+    .startTrading {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .burger-content-block {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .phone-img {
+        margin: 71px auto 0 auto;
+    }
+
+    .list__links .list-item {
+        margin-bottom: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 641px) {
+    .switch-text-block {
+        width: auto;
+    }
+
+    .content-mainBlock {
+        padding-bottom: 0px;
+    }
+
+    .arm-block {
+        padding-bottom: 240px;
+    }
+
+    .money-image {
+        position: inherit;
+    }
+
+    .money-image-block {
+        margin: 40px auto 0 auto;
+    }
+
+    .acc-sq {
+        display: none;
+    }
+
+    .acc-title h4 {
+        padding-left: 0px;
+    }
+
+    .acc-article article {
+        padding-left: 0px;
+    }
+
+    .trade-anywhere__contentBlocks {
+        margin-bottom: 60px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 52px !important;
+        line-height: 55px !important;
+    }
+
+    .main__contacts {
+        padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .counters_block {
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .strip-img-block-first-block {
+        min-height: 20px;
+    }
+
+    .counter_block-second, .counter_block_secondRow {
+        margin-top: 70px;
+    }
+
+    .investing__title, .switch-platform-block {
+        padding-bottom: 0px;
+    }
+
+    .investing__title--text {
+        font-size: 39px;
+        line-height: 40px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 47px !important;
+    }
+
+    .main__contacts .item__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .main__contacts .item__title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .main-title {
+        font-size: 44px;
+        line-height: 25px;
+    }
+
+    .investing__title--text {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .mob-menu-item {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .why_block {
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .trade-anywhere__mainTitle {
+        padding-top: 118px;
+    }
+
+    .platforms-first-col {
+        width: 234px;
+    }
+
+    .main-title {
+        font-size: 32px;
+        line-height: 11px;
+    }
+
+    .trade-anywhere__links {
+        flex-direction: column;
+    }
+
+    .trade-anywhere__platforms a {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    .trade-anywhere_main-title {
+        line-height: 48px;
+    }
+
+    .ampersand {
+        display: none;
+    }
+
+    .logo-link {
+        padding-left: 20px;
+    }
+
+    .window .header ul.menu {
+        margin-left: 20px;
+    }
+
+    .header-mob-lang {
+        left: 20px;
+    }
+
+    .burger-container {
+        margin-right: 20px;
+    }
+
+    #burger {
+        width: 36px !important;
+    }
+
+    .bar {
+        height: 1px !important;
+    }
+
+    .investing__title--text {
+        font-size: 32px;
+        line-height: 31px;
+    }
+
+    .word-outline {
+        color: #fff;
+        -webkit-text-stroke: 0 #FFFFFF;
+    }
+
+    .investing-blockText__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .investing__sign {
+        font-size: 22px;
+    }
+
+    .mob {
+        width: 100%;
+    }
+
+    .acc-wrapper {
+        padding: 80px 0;
+    }
+
+    .acc-title h4 {
+        font-size: 20px;
+    }
+    .acc-title {
+        padding-bottom: 10px;
+    }
+
+    .acc__title--border {
+        margin-top: 28px;
+    }
+
+    .investing__title, .switch-platform-block {
+        padding-top: 60px;
+    }
+
+    .investing__flex-block {
+        margin-top: 30px;
+    }
+
+    .accordion-toggle {
+        font-size: 20px;
+        line-height: 26px;
+        color: #fff;
+    }
+
+    .accordion {
+        padding-bottom: 0px;
+    }
+
+    .investing__title--firstRow {
+        margin-bottom: 8px;
+    }
+
+    .investing__title--secondRow {
+        line-height: 47px;
+    }
+
+    .trade-anywhere_main-title {
+        font-size: 32px !important;
+        line-height: 41px !important;
+    }
+
+    .instruction__mainTitle {
+        padding-top: 60px;
+    }
+
+    .boxSteps {
+        padding-top: 20px;
+    }
+
+    .contact-title {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-top: 80px;
+    }
+
+    .counter_block {
+        margin-right: 0px;
+    }
+
+    .counters_block {
+        flex-direction: inherit;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .button {
+        padding: 16px 34px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .trade-anywhere_main-title {
+        font-size: 28px !important;
+        line-height: 41px !important;
+    }
+
+    .term {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+
+    .arrow {
+        right: -63px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .mob-switch-buttons {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .tradeEverywhere__flex {
+        flex-direction: column;
+    }
+
+    .desc-switch-buttons {
+        display: none;
+    }
+
+    .switch-button {
+        width: 328px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .startTrading__blockSteps{
+        padding: 0px;
+    }
+
+    .startTrading-blockSteps__list .list__item{
+        padding-bottom: 20px;
+    }
+
+    .startTrading-blockSteps__list .list__item .item__text{
+        width: 100% ;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .downloadDocuments{
+        padding: 0px 0 0 0 !important;
+    }
+
+    .wrapper-links{
+        margin-top: 60px;
+    }
+
+    .wrapper-links .list__links{
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrapper__link{
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .blockInformation__boxImg{
+        width: 55%;
+    }
+    .startTrading__blockSteps{
+        width: 45%;
+    }
+    .startTrading__blockTitle{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .mob-switch-buttons {
+        flex-direction: column;
+    }
+
+    .switch-button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .section__title {
+         font-size: 62px;
+         line-height: 80px;
+     }
+    .blockPhrase__phrase{
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .startTrading__list{
+        padding-bottom: 24px;
+    }
+
+    .item__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .startTrading__list .list__item{
+        width: 40%;
+        align-self: flex-start;
+        margin-bottom: 90px;
+    }
+
+    .owl-nav {
+        position: inherit;
+        justify-content: inherit;
+        flex-direction: inherit;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        margin: 20px;
+    }
+
+    .carousel-content-second {
+        margin-top: 40px;
+    }
+
+    .take-it-easy-section {
+        margin-top: 0px;
+    }
+
+    .contactUs__wrapper {
+        padding-top: 60px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .dark-container,
+    .light-container{
+        padding: 0 40px;
+    }
+
+    .switch-platform-content-block {
+        padding-left: 40px;
+    }
+
+    .footer .item__title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer__wrapper {
+        margin-bottom: 60px;
+    }
+
+    .orange-container {
+        padding: 0 40px;
+    }
+
+
+    .wrapper__blockPhrase{
+        height: 100%;
+        margin: 60px 0 139px;
+    }
+
+    .section__title {
+        font-size: 52px;
+        line-height: 67px;
+    }
+
+    .family-list-elem-content {
+        padding-bottom: 60px;
+    }
+
+    .question-symbol {
+        font-size: 52px !important;
+        line-height: 67px !important;
+    }
+
+    .wrapper__blockPhrase .blockPhrase{
+        padding: 0;
+    }
+
+    .blockPhrase{
+        justify-content: flex-start;
+        margin-left: -40px !important;
+        background-position-x: -47px;
+        align-items:flex-start;
+    }
+
+    .tradeEverywhere,
+    .takeItEasy{
+        height: 606px;
+    }
+    .tradeEverywhere .blockPhrase,
+    .takeItEasy .blockPhrase{
+        padding: 120px 0 0px 0;
+    }
+
+    .blockPhrase__img{
+        margin-left: -90px;
+    }
+
+    .blockPhrase .blockPhrase__phrase{
+        font-size: 57px;
+        line-height: 74px;
+        margin-top: 40px !important;
+        width: 90%;
+    }
+
+    .blockPhrase .blockPhrase__phrase{
+        margin-top: 10px;
+    }
+
+    .blockPhrase .blockPhrase__phrase,
+    .blockPhrase .blockPhrase__link{
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    .blockPhrase__link{
+        text-align: left;
+        top: 486px;
+    }
+
+     .about {
+        padding-top: 120px;
+    }
+
+    .startTrading__blockInformation{
+        margin-top: 60px;
+    }
+
+    .blockInformation__boxImg,
+    .startTrading__blockSteps{
+        width: 100%;
+    }
+
+    .blockInformation__boxImg{
+        margin-top: 71px;
+    }
+
+    .anim1 {
+        left: 5px;
+    }
+
+    .startTrading, .about {
+        padding-top: 100px;
+    }
+
+    .anim2 {
+        display: none;
+    }
+
+    .anim3 {
+        top: 120px;
+        right: inherit;
+        width: 130px;
+        position: relative;
+    }
+
+    .takeiteasy-block {
+        padding-bottom: 60px;
+    }
+
+    .anim4 {
+        display: none;
+    }
+
+    .anim5 {
+        display: none;
+    }
+
+    .tradeEverywhere,
+    .takeItEasy{
+        padding: 0;
+    }
+
+    .startTrading-blockSteps__list .list__item{
+        padding: 0px;
+    }
+
+    .startTrading-blockSteps__list .list__item:nth-child(1),
+    .startTrading-blockSteps__list .list__item:nth-child(2){
+        margin-bottom: 95px;
+    }
+
+    .about__text{
+        display: block;
+    }
+
+    .about__title{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about__blockText{
+        max-width: 90%;
+    }
+
+    .about--startTrading{
+        margin-top: 76px;
+    }
+
+    .start-block {
+        padding-top: 80px;
+    }
+
+    .boxSteps{
+        padding-bottom: 60px;
+    }
+
+    .boxSteps .step{
+        max-width: 100%;
+    }
+
+    .boxSteps .step .step__number{
+        width: 15%;
+    }
+
+    .step {
+        padding: 50px 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .blockPhrase .blockPhrase__phrase{
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .square {
+        margin-right: 20px;
+    }
+
+    .startTrading-blockSteps__list {
+        display: block;
+    }
+
+    .footer {
+        padding-bottom: 0px;
+    }
+
+    .startTrading-blockSteps__list .list__item {
+        width: 100%;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about-blockText__text{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .startTrading__list .list__item {
+        width: 45%;
+    }
+
+    .list__links .list-item{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .tradeEverywhere__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .main__form form {
+        width: 100%;
+    }
+
+    input, .textarea {
+        width: 93%;
+    }
+
+    .switch-platform-content-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .get-started-button {
+        margin: 40px auto 0px 0px !important;
+    }
+
+    .choose-platform_button {
+        margin: 40px auto 0 auto;
+    }
+
+    .contact-inner {
+        margin-top: 100px;
+    }
+
+    .contact-title {
+        padding-bottom: 60px;
+    }
+
+    .footer-nav-block {
+        flex-direction: column;
+    }
+
+    .footer__nav a {
+        margin-top: 20px;
+    }
+
+    .footer-nav-block {
+        margin-top: 10px;
+    }
+
+    .hand-image {
+        width: 50%;
+    }
+
+    .counter-static {
+        width: 130px;
+        height: 130px;
+        min-width: auto;
+    }
+
+    .gradient-text {
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+    .footer-nav-block {
+        width: auto;
+    }
+
+    .issue-block-text {
+        padding: 20px;
+    }
+
+    .counter-dynamic {
+        width: auto;
+        height: 280px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .startTrading__blockInformation {
+        margin-top: 0px;
+    }
+
+    .start-block {
+        padding-top: 0px;
+    }
+
+    .comment-section-title {
+        max-width: 280px;
+    }
+
+    .blockPhrase .blockPhrase__phrase{
+        font-size: 41px;
+        line-height: 55px;
+    }
+
+    .start-block {
+        padding-top: 80px !important;
+    }
+
+    .wrapper__blockPhrase .blockPhrase__img{
+        height: 225px;
+    }
+
+    .section__title {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .startTrading-blockSteps__list .list__item {
+        width: 100%;
+    }
+
+    .how-to-start-content {
+        width: 100%;
+    }
+
+    .solve_block {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .dark-container,
+    .light-container {
+        padding: 0 20px;
+    }
+
+    .issue-block-title {
+        padding-bottom: 0px;
+    }
+
+    .solve_block {
+        padding-bottom: 0px;
+        padding-top: 80px;
+    }
+
+    .our_team-title {
+        max-width: 280px;
+    }
+
+    .counters_block {
+        padding-bottom: 0px;
+    }
+
+    .cell:first-child {
+        margin-bottom: 60px;
+    }
+
+    .takeiteasy-block {
+        padding-bottom: 60px;
+    }
+
+    .cell {
+        border: none;
+        margin-bottom: 60px;
+        padding-bottom: 0px;
+    }
+
+    .cell-img {
+        margin-top: 10px;
+    }
+
+    .tradeEverywhere-button {
+        display: block;
+        text-align: center;
+    }
+
+    .tradeEverywhere-buttonLink {
+        width: 100%;
+    }
+
+    .orange-container {
+        padding: 0 20px;
+    }
+
+    .wrapper__blockPhrase{
+        margin: 0;
+    }
+
+    .blockPhrase {
+        background-size: contain;
+        background-position-y: 0;
+        padding: 60px 0 0 0 ;
+    }
+
+    .tradeEverywhere .blockPhrase,
+    .takeItEasy .blockPhrase {
+        padding: 60px 0;
+    }
+
+    .tradeEverywhere,
+    .takeItEasy{
+        height: 334px;
+    }
+
+
+    .blockPhrase__img {
+        height: 147px !important;
+        margin-left: -10px;
+    }
+
+    .blockPhrase .blockPhrase__phrase {
+        font-size: 32px;
+        line-height: 44px;
+        margin-top: 10px !important;
+    }
+
+    .blockPhrase__link {
+        margin-top: 0px;
+        top: 274px;
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .section__title {
+        font-size: 32px;
+        line-height: 41px;
+    }
+
+    .desc-arrow {
+        display: none;
+    }
+
+    .mobile-arrow {
+        display: block;
+        bottom: 19px;
+        right: -29px;
+    }
+
+    .trade-arrow {
+        right: -20px;
+    }
+
+    .question-symbol {
+        font-size: 32px !important;
+        line-height: 41px !important;
+    }
+
+    .startTrading {
+        padding-top: 190px;
+    }
+
+    .tradeEverywhere__title {
+        margin-bottom: 0px;
+    }
+
+    .tradeEverywhere__title-device {
+        margin-bottom: 30px;
+    }
+
+    .step {
+        margin-bottom: 0px;
+    }
+
+    .download-title {
+        text-align: inherit;
+    }
+
+    .list__links .list-item {
+        display: inherit;
+    }
+
+    .startTrading-blockSteps__list .list__item {
+        width: 95%;
+    }
+
+
+    .blockInformation__boxImg{
+        width: 90%;
+    }
+
+    .blockInformation__boxImg .blockInformation-boxImg__img{
+        width: 100%;
+    }
+
+    .startTrading-blockSteps__list .list__item .item__title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 13.65px;
+    }
+
+    .blockInformation__boxImg {
+        max-width: inherit;
+    }
+
+    .about{
+        padding-top: 112px;
+    }
+
+    .about-blockText__text{
+        font-size: 16px;
+        line-height: 28px
+    }
+
+    .about__blockText {
+        max-width: 100%;
+    }
+
+    .about--startTrading{
+        margin: 0;
+        padding-bottom: 94px;
+    }
+
+    .about--startTrading .list__item{
+        width: 90%;
+        margin: 60px 0 0 0 !important;
+    }
+
+    .about--startTrading  .wrapper__list-item{
+        max-width: inherit;
+    }
+
+    .about--startTrading .list__item .number--outline{
+        margin-bottom: 24px;
+    }
+
+    .about--startTrading .list__item .item__subtitle{
+        margin-bottom: 14px;
+    }
+
+    .boxSteps{
+        padding-bottom: 30px;
+    }
+
+    .boxSteps .step{
+       flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .boxSteps .step .step__number,
+    .boxSteps .step .step__info{
+        width: 100%;
+    }
+
+    .boxSteps .step .step__info{
+        margin-top: 31px;
+    }
+
+    .downloadDocuments{
+        padding: 50px 0 0 0 !important;
+    }
+
+    .list-item__numberLinks{
+        display: none;
+    }
+
+    .issue-block-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .issue-block-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .wrapper-links {
+        margin-top: 30px;
+    }
+}
+
