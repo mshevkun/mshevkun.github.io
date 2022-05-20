@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="style/bootstrap-reboot.min.css" rel="stylesheet">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style/fonts.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+  <link href="style/media.css" rel="stylesheet">
+
+  <!-- comparison-slider -->
+  <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+
+  <title>Dentist</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container d-flex top-bar-wrapper">
+      <div class="row top-bar d-flex align-items-center">
+        <div class="col-5"></div>
+        <div class="col-3 topBar-section">
+          <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+          <span class="btIconWidgetTitle">Monday to Friday</span>
+          <span class="btIconWidgetText">8AM - 9PM</span>
+        </div>
+        <div class="col-4 topBar-section">
+          <i class="fa fa-map-marker topBar__icon" aria-hidden="true"></i>
+          <span class="btIconWidgetTitle">Dirección</span>
+          <span class="btIconWidgetText">Jr. San Rafael 294, Urbanizacian Santa Rosa Mza A Lote 50, Los Olivos,
+            Lima</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header-navbar navbar stroke navbar-expand-xl navbar-light bg-light">
+
+
+      <div class="container">
+
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu d-flex justify-content-between align-items-center">
+            <div>
+              <a href="#" class="navbar-brand">
+                <img src="img/logo.png" class="logo-desc" class="navbar-brand"></img>
+                <img src="img/logo-mob.png" class="logo-mob" class="navbar-brand"></img>
+              </a>
+            </div>
+            <div>
+              <div class="circle">
+                <button class="btn">
+                  <span class="btn__line"></span>
+                  <span class="btn__line"></span>
+                  <span class="btn__line"></span>
+                </button>
+              </div>
+
+              <div class="full-menu">
+                <div class="layer"></div>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a href="#consult-info" class="nav__link">
+                        About us
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#services" class="nav__link">
+                        Services
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#gallery" class="nav__link">
+                        Gallery
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#contacts" class="nav__link">
+                        Contacts
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="desctop-menu">
+          <a href="#" class="navbar-brand">
+            <img src="img/logo.png" class="navbar-brand"></img>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="#fff" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+              </path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active menu-section" aria-current="page" href="#consult-info">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav-item nav-item_call-button">
+                <a href="tel:51993671792" class="main-btn nav-tel-btn">
+                  <span class="main-btn__icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </span>
+                  <span>+51-993-671-792</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </nav>
+  </header>
+
+  <section class="mb-5">
+    <div class="container-fluid presentation-wrapper">
+      <div class="row presentation">
+        <div class="col-12 col-lg-5 presentation__image nopadding">
+          <img src="img/romy-lg.png" class="romy-main-large" alt="Doctor image">
+          <img src="img/romy.png" class="romy-main-image" alt="Doctor image">
+          <img src="img/romy-main-mobile3.png" class="romy-mobile-main-image" alt="Doctor image">
+        </div>
+        <div class="col-12 col-lg-7 presentation__content-block">
+          <div class="presentation__content">
+            <h2 class="presentation__position">DentiCare Dental Surgeon</h2>
+            <span class="presentation__name">Maria</span>
+            <span class="presentation__surname">Welsh</span>
+            <p class="presentation__text">Objectively innovate empowered manufactured products whereas parallel
+              platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically
+              engage top-line web services vis-a-vis cutting-edge.</p>
+            <div class="d-flex align-items-center justify-content-between align-items-center">
+              <div class="presentation__signature">
+                <img src="img/sign-4.png" alt="Doctor's signature">
+              </div>
+              <div class="presentation__social-network d-flex align-items-center justify-content-between">
+                <a href="https://api.whatsapp.com/send?phone=51993671792" target="_blank" title="Contact on WhatsApp"
+                  rel="noopener noreferrer">
+                  <div class="whatsapp-button"><i class="fa fa-whatsapp"></i></div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-cover-block">
+        <img class="bottom-cover-block__bg-image" src="img/bottom-cover.png" alt="bottom-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="container">
+      <div class="row benefits">
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/tooth-white.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Teeth Whitening</h3>
+          <p class="benefits__text">Whitening is among the most popular dental procedures because it can greatly improve
+            how your teeth look.</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/tooth-brush.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Teeth Cleaning</h3>
+          <p class="benefits__text">Teeth cleaning is part of oral hygiene and involves the removal of dental plaque
+            from teeth (dental caries).</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/injection.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Modern Anesthetic</h3>
+          <p class="benefits__text">Dental anesthesia is a field of anesthesia that includes not only local but sedation
+            and general anesthesia.</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/braces.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Quality Brackets</h3>
+          <p class="benefits__text">Orthodontics is the branch of dentistry that corrects teeth and jaws that are
+            positioned improperly.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent" id="consult-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4 consult-info">
+          <div class="consult-info__title">
+            <h2 class="nopadding">Consult Maria</h2>
+          </div>
+          <div class="consult-info__contact">
+            <div class="consult-info__tel contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/call.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Call us</h3>
+                <a href="tel:51993671792" class="consult-info__contact-text">+51-993-671-792</a>
+              </div>
+            </div>
+            <div class="consult-info__email contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/mail.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Email us</h3>
+                <span class="consult-info__contact-text">office@gmail.com</span>
+                <span class="consult-info__contact-text">emergency@gmail.com</span>
+              </div>
+            </div>
+            <div class="consult-info__book contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/appointment.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Book appointment</h3>
+                <span class="consult-info__contact-text">Click here to book an appointment.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="consult-info__title">
+            <h2 class="nopadding">Working Hours</h2>
+          </div>
+          <div class="consult-info__booking">
+            <p class="consult-info__booking-text">Book a visit with Dr Maria Welsh now. <br> Check her working hours and
+              click Book to continue.</p>
+            <div class="consult-info__timetable">
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Monday</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Tuesday</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Wednesday</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Thursday</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Friday</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Weekends</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time consult-info__time_closed">Closed</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792"
+                    class="consult-info__book-button consult-info__book-button_hidden main-btn">
+                    <span>Book</span>
+                    <span class="main__icon consult-info__book-icon">
+                      <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-0 col-lg-1"></div>
+        <div class="col-md-12 col-lg-7 modern-clinic">
+          <h2 class="modern-clinic__title">Modern Dentistry Clinic</h2>
+          <img src="img/cabinet.jpg" class="modern-clinic__image" alt="Modern Clinic">
+          <p class="modern-clinic__text">We offer a wide-range of dental services at the General Clinic.You will be
+            provided with a comprehensive treatment plan prior to the start of any dental services. To make an
+            appointment or learn more about the services available at the Dentistry clinic please call on.</p>
+          <ul class="modern-clinic__list">
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Certified Dentist Doctors</span>
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Latest Technology Equipment</span>
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Guarantee for dent treatment</span>
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span span class="modern-clinic__list-item-text">Before/After treatment care</span>
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Insurance facility available</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="biography-bg">
+      <div class="container">
+        <div class="row biography-row">
+          <div class="col-12 col-md-4 biography">
+            <span class="biography__name">Dr Welsh's</span>
+            <span class="biography__surname">Biography</span>
+            <p class="biography-text">Globally harness multimedia based collaboration and idea-sharing with backend
+              products. Continually whiteboard superior opportunities via covalent scenarios.</p>
+          </div>
+          <div class="col-12 col-md-8 biography-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                  role="tab" aria-controls="home" aria-selected="true">Work Experience</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                  role="tab" aria-controls="profile" aria-selected="false">Medical Checkups</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                  role="tab" aria-controls="contact" aria-selected="false">Awards & Achievements</button>
+              </li>
+            </ul>
+            <div class="tab-content biography-tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis aut nemo praesentium.</li>
+                  <li>Id sint dignissimos voluptates pariatur delectus. Iure unde consectetur error autem provident?
+                  </li>
+                  <li>Accusantium quidem rerum laudantium dignissimos commodi veritatis deleniti obcaecati!
+                    Perspiciatis, commodi aperiam.</li>
+                  <li>Assumenda, quas voluptatibus. Quae sapiente iste nobis sint aspernatur illum alias est!</li>
+                  <li>Eius repudiandae fugit assumenda. Voluptates id hic soluta rem eos reiciendis nobis.</li>
+                  <li>Rem facilis doloremque quia fugiat eum possimus beatae doloribus veritatis distinctio qui!</li>
+                  <li>Sunt quia suscipit quasi beatae voluptatum consequatur doloremque cupiditate soluta. Id,
+                    consequatur?</li>
+                  <li>Dolorem veniam sed, explicabo ullam voluptates rerum expedita ipsam omnis voluptas beatae?</li>
+                  <li>Ut voluptate facilis a, ullam dolore voluptatum vitae veritatis molestiae at optio?</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p class="medical-checkup">Quickly aggregate B2B users and worldwide potentialities. Progressively
+                  plagiarize resource-leveling e-commerce through resource-leveling core competencies. Dramatically mesh
+                  low-risk high-yield alignments before transparent e-tailers.</p>
+                <p class="medical-checkup">
+                  Appropriately empower dynamic leadership skills after business portals. Globally myocardinate
+                  interactive supply chains with distinctive quality vectors. Globally revolutionize global sources
+                  through interoperable services.
+                </p>
+                <p class="medical-checkup">Enthusiastically mesh long-term high-impact infrastructures vis-a-vis
+                  efficient customer service. Professionally fashion wireless leadership rather than prospective
+                  experiences. Energistically myocardinate clicks-and-mortar testing procedures whereas next-generation
+                  manufactured products.</p>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <ul>
+                  <li>Ipsum possimus eaque consequatur facere eum voluptates doloribus sint quia? Suscipit, enim!</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officiis quo nisi?</li>
+                  <li>Facilis quaerat quam voluptatem, eveniet quas itaque ipsum neque impedit culpa mollitia.</li>
+                  <li>Alias quia necessitatibus libero! Fugiat quos laboriosam mollitia repudiandae perferendis animi
+                    deserunt.</li>
+                  <li>Deleniti pariatur incidunt praesentium nesciunt sequi architecto a, modi amet nostrum libero!</li>
+                  <li>Doloremque consequuntur debitis dicta expedita fuga magni? Repellat inventore est totam quod?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-cover-block">
+        <img class="top-cover-block__bg-image" src="img/top-cover.png" alt="top-cover">
+      </div>
+
+      <div class="bottom-cover-block">
+        <img class="bottom-cover-block__bg-image" src="img/bottom-cover.png" alt="bottom-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent" id="services">
+    <div class="container services">
+      <div class="row section-title-block">
+        <h2 class="section-title-block__title">Our Range of Dental Care Services</h2>
+        <p class="section-title-block__text">We provide dental care to nearly a million patients every year. Listed
+          below are some of the services can provide our patients.</p>
+      </div>
+      <div class="row services-items-row">
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/teeth-whiting.jpg" class="services-item-image"></img>
+          </div>
+          <div class="services-item-content">
+            <h3 class="services-item-title">Teeth Whitening</h3>
+            <p class="services-item-text">Tooth whitening can make your teeth sparkling white and beautiful!</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/gum-treatment.jpg" class="services-item-image"></img>
+          </div>
+          <div class="services-item-content">
+            <h3 class="services-item-title">Gum Treatment</h3>
+            <p class="services-item-text">Gum disease like gingivitis, periodontitis can cause you to lose teeth.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/restore.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Restorations</h3>
+            <p class="services-item-text">Tooth restorations are the various ways your dentist can replace missing
+              teeth.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/implante.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Implant Dentistry</h3>
+            <p class="services-item-text">Tooth restorations are the various ways your dentist can replace missing
+              teeth.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/consious-sedction.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Root Canal</h3>
+            <p class="services-item-text">A root canal is the anatomic space within the root of a tooth.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/ortodo.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Orthodontics</h3>
+            <p class="services-item-text">Orthodontics is the anatomic space within the root of a tooth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="container teeth-whitening">
+      <div class="row align-items-center">
+
+
+        <div class="col-12 col-md-6 teeth-whitening__content">
+          <h3 class="teeth-whitening__title">Perfect Smile,</h3>
+          <h2 class="teeth-whitening__title">Excellence Defined</h2>
+          <p class="teeth-whitening__text">Teeth whitening is one of the quickest ways to improve your smile. Many
+            patients are amazed that one trip to DentiCare can change their teeth dramatically.</p>
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Dental Satisfaction</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 98%;"></div>
+            </div>
+          </div>
+
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Success Rate</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 100%;"></div>
+            </div>
+          </div>
+
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Cost Satisfaction</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 teeth-whitening__comparison-slider">
+          <img-comparison-slider class="comparison-slider slider-example-focus slider-example-opacity-and-size">
+            <img slot="first" width="100%" src="img/teeth-before.jpg">
+            <img slot="second" width="100%" src="img/teeth-after.jpg">
+          </img-comparison-slider>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent" id="contact_us">
+    <div class="container-fluid contact-form">
+      <div class="row d-flex align-items-center contact-form-content-wrapper">
+        <div class="col-12 col-md-6 contact-form-content-block">
+          <div class="contact-form-wrapper">
+            <div class="contact-form-content">
+              <h2 class="contact-form-content__title">
+                <strong>AGENDA TU CITA CON NOSOTROS</strong>
+              </h2>
+              <p class="contact-form-content__text">Completa tus datos y nosotros te llamamos para programar una cita.
+              </p>
+              <div class="contact-form-content__inputs-wrapper">
+                <input type="text" placeholder="Nombre*" class="contact-form-content__input">
+                <input type="text" placeholder="Número de teléfono*" class="contact-form-content__input">
+              </div>
+              <textarea name="" id="" cols="40" rows="6" placeholder="Mensaje y procedimiento dental que necesitas*"
+                class="contact-form-content__textarea"></textarea>
+              <button class="contact-form-content__button main-btn">RESERVA UNA CONSULTA</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 contact-form-image-block">
+          <img src="img/romy-form.jpg" alt="" class="contact-form__image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent container-gallery" id="gallery">
+    <div class="container">
+      <div class="row section-title-block">
+        <h2 class="section-title-block__title">Gallery</h2>
+        <p class="section-title-block__text">We provide dental care to nearly a million patients every year. Listed
+          below are some of the services can provide our patients.</p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row carousel-wrapper">
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <div class="gallery">
+              <div class="item item-1"></div>
+              <div class="item item-2"></div>
+              <div class="item item-3"></div>
+              <div class="item item-4"></div>
+              <div class="item item-5"></div>
+              <div class="item item-6"></div>
+              <div class="item item-7"></div>
+              <div class="item item-8"></div>
+              <div class="item item-9"></div>
+              <div class="item item-10"></div>
+              <div class="item item-11"></div>
+              <div class="item item-12"></div>
+              <div class="item item-13"></div>
+              <div class="item item-14"></div>
+            </div>
+          </div>
+          <!-- </section> -->
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="section__indent" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="contact-us__title">Contáctenos</h2>
+          <p class="contact-us__text">Competently parallel task fully researched data and enterprise process
+            improvements. Collaboratively expedite quality manufactured products.</p>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image consult-us-info__contact-image_active">
+              <img src="img/dental-insurance.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title consult-us-info-text__title_active">Teléfono</h3>
+              <span class="consult-us-info__contact-text">+51-993-671-792</span>
+            </div>
+          </div>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image">
+              <img src="img/mail.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title">Dirección</h3>
+              <span class="consult-us-info__contact-text">Jr. San Rafael 294, Urbanizacian Santa Rosa Mza A Lote
+                50</span>
+              <span class="consult-us-info__contact-text">Los Olivos, Lima, 15302, Peru</span>
+            </div>
+          </div>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image">
+              <img src="img/dental.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title">Write Us</h3>
+              <span class="consult-us-info__contact-text">office@gmail.com</span>
+              <span class="consult-us-info__contact-text">24hr@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 map-section">
+          <div class="map-section__background">
+            <img src="img/Map.png" alt="">
+          </div>
+          <div class="map-section__map">
+            <iframe class="map-iframe" src="http://maps.google.com/maps?q=-12.007624,-77.080961&z=16&output=embed"
+              height="700" width="600" style="margin-top: -70px"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bg">
+      <div class="container footer">
+        <div class="row">
+          <div class="center-block d-flex justify-content-center">
+            <img src="img/logo.png" class="footer__logo" alt="logo">
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col">
+            <p class="footer-col__text">We are a friendly team of dentists, hygienists and receptionists who work
+              together to ensure that you receive the best treatment you require.</p>
+            <h4 class="footer-col__phone-title">24/7 Emergency phone</h4>
+            <div class="footer-col-phones-block">
+              <i class="fa fa-phone footer-col-phones-block__icon" aria-hidden="true"></i>
+              <a href="tel:51993671792" class="footer-col-phones-block__tel">+51-993-671-792</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col footer-col-about">
+            <h3 class="footer-col__title">About DentiCare</h3>
+            <ul class="footer-col-about__list">
+              <li class="footer-col-about__el">Our Dental Team</li>
+              <li class="footer-col-about__el">Our Awards</li>
+              <li class="footer-col-about__el">Dental Services</li>
+              <li class="footer-col-about__el">Pricing & Pricelist</li>
+              <li class="footer-col-about__el">Our Solutions</li>
+              <li class="footer-col-about__el">Clients & Testimonials</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col footer-col-awards">
+            <h3 class="footer-col__title">Our Awards</h3>
+            <img src="img/img-award.png" class="footer-col-awards__logo" alt="">
+            <ul class="footer-col-awards__list">
+              <li class="footer-col-awards__el">Best Patient Care 2019</li>
+              <li class="footer-col-awards__el">Best Practice & Best Team 2018</li>
+              <li class="footer-col-awards__el">Best Team & Practice 2017</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col-hours">
+            <h3 class="footer-col__title">Working Hours</h3>
+
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Monday</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Tuesday</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Wednesday</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Thursday</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Friday</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Saturday - Sunday</div>
+              <div class="footer-col-hours-wrapper__time">Closed</div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row footer-bottom d-flex align-items-center justify-content-between">
+          <div class="col-lg-6 col-md-12 footer-nav nopadding">
+            <ul class="footer-nav__list d-flex">
+              <li class="footer-nav__elem">
+                <a href="#consult-info">About us</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#services">Services</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#contacts">Contacts</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#">
+                  <i class="fa fa-angle-up footer-nav__elem-icon"></i>Back to top</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="top-cover-block">
+        <img class="top-cover-block__bg-image" src="img/top-cover.png" alt="top-cover">
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
