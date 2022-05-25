@@ -844,9 +844,9 @@ footer {
   flex-wrap: wrap;
 }
 
-.logo-mob {
+/* .logo-mob {
   display: none;
-}
+} */
 
 .footer-nav__elem a {
   color: #fff;
