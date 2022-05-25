@@ -470,17 +470,8 @@
     width: 1400px;
   }
 
-  /* .logo-desc {
-    display: none;
-  } */
-
-  /* .logo-mob {
-    display: block;
-  } */
-
   .logo {
     max-width: 100px;
-    margin-top: 15px;
   }
 }
 
