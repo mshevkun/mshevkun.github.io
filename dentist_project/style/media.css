@@ -470,15 +470,15 @@
     width: 1400px;
   }
 
-  .logo-desc {
+  /* .logo-desc {
     display: none;
-  }
+  } */
 
-  .logo-mob {
+  /* .logo-mob {
     display: block;
-  }
+  } */
 
-  .logo-mob {
+  .logo {
     max-width: 100px;
     margin-top: 15px;
   }
@@ -583,7 +583,7 @@
     height: 80px;
   }
 
-  .logo-mob {
+  .logo {
     margin-top: 8px;
 }
 
