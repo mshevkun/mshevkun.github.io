@@ -479,7 +479,7 @@
   }
 
   .logo-mob {
-    max-width: 64%;
+    max-width: 100px;
     margin-top: 15px;
   }
 }
