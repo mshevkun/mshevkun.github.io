@@ -1126,8 +1126,7 @@ footer {
   border-radius: 4px;
 }
 
-/*Finaliza cambio de estilo scroll bar*/
-/*CAROUSEL al contenedor padre se le deja el tamaño del 100%*/
+/*CAROUSEL*/
 .carousel-wrapper {
   width: 100%;
   height: 100%;
@@ -1135,12 +1134,10 @@ footer {
   margin-bottom: 5%;
 }
 
-/*en la clase del carousel se realiza independiente para que ahi pueda agregar el escroll X*/
 .carousel {
   overflow-x: scroll;
 }
 
-/*el texto ya esta centrado ya que se le dio el ancho del 100% al contenedor padre*/
 .carousel-wrapper p {
   color: #134A73;
   font-family: sans-serif;
@@ -1150,7 +1147,6 @@ footer {
   margin-bottom: 40px;
 }
 
-/* se le da el tamaño que se desea para la visulizacion de las imagenes ya que en el contenedor de la clase de carousel es donde estara creado el scroll*/
 .carousel-wrapper .gallery {
   display: flex;
   flex-direction: row;
@@ -1171,7 +1167,7 @@ footer {
   flex: 15%;
 }
 
-/*fotos*/
+/*photo*/
 
 .carousel-wrapper .item-1 {
   background-image: url("../img/slider-img1.jpg");
@@ -1229,7 +1225,6 @@ footer {
   background-image: url('../img/slider-img14.jpg');
 }
 
-/*se agrego el cursos para que sepa que esta en cada imagen*/
 .gallery .item:hover {
   cursor: pointer;
 }
