@@ -1235,10 +1235,6 @@ footer {
   margin: 0 !important;
 }
 
-.romy-mobile-main-image {
-  display: none;
-}
-
 .teeth-whitening__background {
   width: 100%;
   background-color: rgba(0, 0, 0, .1);
@@ -1259,10 +1255,6 @@ footer {
 
 .teeth-whitening__comparison-slider {
   text-align: right;
-}
-
-.romy-main-large {
-  display: none;
 }
 
 .comparison-slider {

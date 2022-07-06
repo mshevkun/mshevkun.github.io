@@ -2,6 +2,14 @@
   .map-iframe {
     width: 100%;
   }
+
+  .romy-mobile-main-image {
+    display: none;
+  }
+
+  .romy-main-image {
+    display: block;
+  }
 }
 
 @media screen and (min-device-width:1200px) {
@@ -25,15 +33,6 @@
 }
 
 @media screen and (min-device-width:1450px) {
-  .romy-main-large {
-    display: block;
-  }
-
-  .romy-main-image,
-  .romy-mobile-main-image {
-    display: none;
-  }
-
   .benefits__text {
     max-width: 300px;
   }
@@ -345,10 +344,6 @@
 
   .romy-main-image {
     display: none;
-  }
-
-  .romy-mobile-main-image {
-    display: block;
   }
 
   .benefits__item {
