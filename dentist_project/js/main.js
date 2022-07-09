@@ -130,3 +130,17 @@ document.addEventListener("DOMContentLoaded", function () {
     addEventListener('scroll',processScroll);
 
 }(this);
+
+// form submit
+
+$('#contact-form').submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: "POST",
+    url: "mailer/smart.php",
+    data: $(this).serialize()
+}).done(function () {
+    $(".form-block-thanks").fadeIn('slow').css('display', 'block');
+});
+return false;
+});
