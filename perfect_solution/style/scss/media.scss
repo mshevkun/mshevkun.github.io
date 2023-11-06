@@ -95,6 +95,11 @@
     right: -30px;
   }
 
+  .contact__image {
+    max-width: 75%;
+    margin: 0 0 50px 50px;
+  }
+
   .about__benefits-col {
     margin-right: 20px;
   }
@@ -104,7 +109,7 @@
   }
 
   .team__member {
-    margin-top: 70px;
+    margin-top: 30px;
   }
 
   .result-num__block {
@@ -172,6 +177,11 @@
   .header-bottom-nav__list > li .dropdown {
     padding: 20px 20px;
   }
+
+  .team__member-carlos {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -180,7 +190,7 @@
   }
 
   .header__logo img {
-    max-height: 30px;
+    max-height: 55%;
   }
 
   .services__title-wrapper {
@@ -289,10 +299,6 @@
     justify-content: space-around;
   }
 
-  // .header-bottom-nav__list li {
-  //   padding-right: 32px;
-  // }
-
   .site-offer__wrapper {
     padding: 60px 30px 60px 40px;
   }
@@ -390,10 +396,6 @@
   .contact .contact-form input {
     margin-bottom: 24px;
   }
-
-  // .main_btn {
-  //   margin-top: 0 !important;
-  // }
 
   .lets-get-started__title {
     margin-bottom: 0px;
@@ -620,6 +622,11 @@
 
   .slide__title {
     margin-top: 80px;
+  }
+
+  .contact__image {
+    max-width: 100%;
+    margin: 0 0 50px 0;
   }
 
   .slide__link-image {
